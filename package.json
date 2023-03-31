@@ -1,0 +1,38 @@
+{
+  "name": "solid-git-remote-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e ts,js --exec ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdev14/solid-git-remote-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdev14/solid-git-remote-hub/issues"
+  },
+  "homepage": "https://github.com/hdev14/solid-git-remote-hub#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.0",
+    "jest": "^29.5.0",
+    "jest-mock-extended": "^3.0.4",
+    "nodemon": "^2.0.21",
+    "prisma": "^4.11.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "axios": "^1.3.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
+  }
+}
